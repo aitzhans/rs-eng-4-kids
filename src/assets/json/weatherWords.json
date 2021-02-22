@@ -1,0 +1,51 @@
+
+[
+      {
+          "word": "Snowу",
+          "translation": "Идет снег",
+          "img": "snowy.png",
+          "audioFile": "snowy.mp3"
+      },
+      {
+          "word": "Cloudy",
+          "translation": "Облачно",
+          "img": "cloudy.png",
+          "audioFile": "cloudy.mp3"
+      },
+      {
+          "word": "Cold",
+          "translation": "Холодно",
+          "img": "cold.png",
+          "audioFile": "cold.mp3"
+      },
+      {
+          "word": "Sunny",
+          "translation": "Солнечно",
+          "img": "sunny.png",
+          "audioFile": "sunny.mp3"
+      },
+      {
+          "word": "Hot",
+          "translation": "Жарко",
+          "img": "hot.png",
+          "audioFile": "hot.mp3"
+      },
+      {
+          "word": "Lightning",
+          "translation": "Молния",
+          "img": "lightning.png",
+          "audioFile": "lightning.mp3"
+      },
+      {
+          "word": "Windy",
+          "translation": "Ветренно",
+          "img": "windy.png",
+          "audioFile": "windy.mp3"
+      },
+      {
+          "word": "Rainу",
+          "translation": "Идет дождь",
+          "img": "rainy.png",
+          "audioFile": "rainy.mp3"
+      }
+    ]

@@ -1,0 +1,42 @@
+[
+  {
+    "categoryName": "Weather",
+    "cover": "weather_cover.png",
+    "words": "weatherWords"
+  },
+  {
+    "categoryName": "Adjectives 01",
+    "cover": "adj01_cover.png",
+    "words": "adj01Words"
+  },
+  {
+    "categoryName": "Adjectives 02",
+    "cover": "adj02_cover.png",
+    "words": "adj02Words"
+  },
+  {
+    "categoryName": "Prepositions",
+    "cover": "preps_cover.png",
+    "words": "prepsWords"
+  },
+  {
+    "categoryName": "Fastfood",
+    "cover": "fastfood_cover.png",
+    "words": "fastfoodWords"
+  },
+  {
+    "categoryName": "Animals",
+    "cover": "animals_cover.png",
+    "words": "animalsWords"
+  },
+  {
+    "categoryName": "Fruits",
+    "cover": "fruits_cover.png",
+    "words": "fruitsWords"
+  },
+  {
+    "categoryName": "Kitchen actions",
+    "cover": "actions_cover.png",
+    "words": "actionsWords"
+  }
+]

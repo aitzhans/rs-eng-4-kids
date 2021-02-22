@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Watermelon",
+      "translation": "Арбуз",
+      "img": "watermelon.png",
+      "audioFile": "watermelon.mp3"
+  },
+  {
+      "word": "Orange",
+      "translation": "Апельсин",
+      "img": "orange.png",
+      "audioFile": "orange.mp3"
+  },
+  {
+      "word": "Pineapple",
+      "translation": "Ананас",
+      "img": "pineapple.png",
+      "audioFile": "pineapple.mp3"
+  },
+  {
+      "word": "Pear",
+      "translation": "Груша",
+      "img": "pear.png",
+      "audioFile": "pear.mp3"
+  },
+  {
+      "word": "Apple",
+      "translation": "Яблоко",
+      "img": "apple.png",
+      "audioFile": "apple.mp3"
+  },
+  {
+      "word": "Banana",
+      "translation": "Банан",
+      "img": "banana.png",
+      "audioFile": "banana.mp3"
+  },
+  {
+      "word": "Cherry",
+      "translation": "Вишня",
+      "img": "cherry.png",
+      "audioFile": "cherry.mp3"
+  },
+  {
+      "word": "Grape",
+      "translation": "Виноград",
+      "img": "grape.png",
+      "audioFile": "grape.mp3"
+  }
+]

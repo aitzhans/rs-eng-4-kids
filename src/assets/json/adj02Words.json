@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Full",
+      "translation": "Полный",
+      "img": "full.png",
+      "audioFile": "full.mp3"
+  },
+  {
+      "word": "Empty",
+      "translation": "Пустой",
+      "img": "empty.png",
+      "audioFile": "empty.mp3"
+  },
+  {
+      "word": "Ugly",
+      "translation": "Уродливый",
+      "img": "ugly.png",
+      "audioFile": "ugly.mp3"
+  },
+  {
+      "word": "Pretty",
+      "translation": "Симпатичный",
+      "img": "pretty.png",
+      "audioFile": "pretty.mp3"
+  },
+  {
+      "word": "Short",
+      "translation": "Короткий",
+      "img": "short.png",
+      "audioFile": "short.mp3"
+  },
+  {
+      "word": "Long",
+      "translation": "Длинный",
+      "img": "long.png",
+      "audioFile": "long.mp3"
+  },
+  {
+      "word": "Slow",
+      "translation": "Медленный",
+      "img": "slow.png",
+      "audioFile": "slow.mp3"
+  },
+  {
+      "word": "Fast",
+      "translation": "Быстрый",
+      "img": "fast.png",
+      "audioFile": "fast.mp3"
+  }
+]

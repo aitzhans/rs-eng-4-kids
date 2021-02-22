@@ -1,0 +1,72 @@
+.page-header {
+  background-color: $bg-color;
+  background-image: url("../../assets/img/page-header_bg.jpg");
+  background-position: top center;
+  background-size: 177rem 16rem;
+}
+
+.page-header__container {
+  @include container();
+  height: 16rem;
+  padding-top: 0.4rem;
+}
+
+.page-header__title-container {
+  width: 76rem;
+  height: 15rem;
+  margin-left: 30rem;
+
+  background-image: url("../../assets/img/header_title.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 76rem 15rem;
+
+  &--play {
+    background-image: url("../../assets/img/game-stars_bg.png");
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+.page-header__title {
+  font-size: 0;
+}
+
+.page-header__overlay {
+  position: absolute;
+  z-index: 98;
+  width: 100%;
+  height: 100vh;
+
+  &--hidden {
+    display: none;
+  }
+}
+
+
+
+@media only screen and #{$tablet-width} {
+  .page-header__title-container {
+    width: 60rem;
+    height: 12rem;
+    margin-left: 12rem;
+    background-size: 60rem 11.6rem;
+  }
+}
+
+
+
+@media only screen and #{$mobile-width} {
+  .page-header__title-container {
+    width: 32rem;
+    height: 6em;
+    margin-left: 0;
+    margin-top: 6rem;
+    background-image: url("../../assets/img/header_title_mob.png");
+    background-size: 32rem 6.2rem;
+
+    &--play {
+      background-image: url("../../assets/img/game-stars_bg_mob.png");
+    }  
+  }
+}

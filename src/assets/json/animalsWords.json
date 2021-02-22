@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Squirrel",
+      "translation": "Белка",
+      "img": "squirrel.png",
+      "audioFile": "squirrel.mp3"
+  },
+  {
+      "word": "Bear",
+      "translation": "Медведь",
+      "img": "bear.png",
+      "audioFile": "bear.mp3"
+  },
+  {
+      "word": "Penguin",
+      "translation": "Пингвин",
+      "img": "penguin.png",
+      "audioFile": "penguin.mp3"
+  },
+  {
+      "word": "Fox",
+      "translation": "Лиса",
+      "img": "fox.png",
+      "audioFile": "fox.mp3"
+  },
+  {
+      "word": "Hedgehog",
+      "translation": "Еж",
+      "img": "hedgehog.png",
+      "audioFile": "hedgehog.mp3"
+  },
+  {
+      "word": "Raccoon",
+      "translation": "Енот",
+      "img": "raccoon.png",
+      "audioFile": "raccoon.mp3"
+  },
+  {
+      "word": "Deer",
+      "translation": "Олень",
+      "img": "deer.png",
+      "audioFile": "deer.mp3"
+  },
+  {
+      "word": "Owl",
+      "translation": "Сова",
+      "img": "owl.png",
+      "audioFile": "owl.mp3"
+  }
+]

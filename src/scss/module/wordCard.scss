@@ -1,0 +1,200 @@
+.wordCard {
+  width: 32rem;
+  height: 30rem;
+  margin-bottom: 3.5rem;
+  perspective: 1000px;
+}
+
+.wordCard__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.wordCard--flipped:hover .wordCard__inner {
+  transform: rotateY(180deg);
+}
+
+.wordCard__surface {
+  border-radius: 2.4rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  box-shadow: 0.8rem 0.8rem 0 rgba($color: $shadow-color, $alpha: 0.4);
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &--front {
+    background: $main-color;
+
+    &:hover {
+      background-color: $main-color-hover;
+    }
+  }
+
+  &--back {
+    background: $main-color;
+    transform: rotateY(180deg);
+  }
+}
+
+.wordCard__img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 30rem;
+  height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.4rem;
+  background: rgb(228, 242, 247);
+  transition: all 0.2rem;
+}
+
+.wordCard__txt {
+  margin-top: 1.4rem;
+  font-size: 3rem;
+  color: $text-color;
+}
+
+.wordCard__btn {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1.2rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background: none;
+  border-radius: 50%;
+  border: 1px $text-color solid;
+  color: $text-color;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $play-color;
+  }
+}
+
+.wordCard--play {
+  & .wordCard__surface {
+    background-color: $play-color;
+  }
+
+  & .wordCard__btn,
+  & .wordCard__txt {
+    display: none;
+  }
+
+  & .wordCard__img {
+    height: 28rem;
+  }
+}
+
+.wordCard--inactive {
+  opacity: 0.6;
+  cursor: default;
+  pointer-events: none;
+}
+
+
+
+
+@media only screen and #{$tablet-width} {
+  .wordCard {
+    width: 27rem;
+    height: 25.3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  .wordCard__surface {
+    border-radius: 1.8rem;
+    box-shadow: 0.6rem 0.6rem 0 rgba($color: $shadow-color, $alpha: 0.4);
+  }
+  
+  .wordCard__img {
+    margin-top: 0.5rem;
+    width: 26rem;
+    height: 19rem;
+    border-radius: 1.4rem;
+    margin-left: 0.5rem;
+  }
+  
+  .wordCard__txt {
+    margin-top: 1.2rem;
+    font-size: 2.4rem;
+    color: $text-color;
+  }
+   
+  .wordCard--play {
+    & .wordCard__img {
+      height: 24.3rem;
+    }
+  }
+}
+
+
+
+
+@media only screen and #{$mobile-width} {
+  .wordCard {
+    width: 15rem;
+    height: 14rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+    &:nth-child(3n) {
+      margin-right: 2rem;
+    }
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+
+  .wordCard__surface {
+    border-radius: 1.2rem;
+    box-shadow: 0.3rem 0.3rem 0 rgba($color: $shadow-color, $alpha: 0.4);
+  }
+  
+  .wordCard__img {
+    margin-top: 0.5rem;
+    width: 14rem;
+    height: 10.3rem;
+    border-radius: 1rem;
+  }
+  
+  .wordCard__txt {
+    margin-top: 0.6rem;
+    font-size: 1.6rem;
+  }
+   
+  .wordCard--play {
+    & .wordCard__img {
+      height: 13rem;
+    }
+  }
+
+
+  .wordCard__btn {
+    right: 0.6rem;
+    bottom: 0.6rem;
+    width: 2rem;
+    height: 2rem;
+
+    & * {
+      font-size: 1.6rem;
+    }
+  }  
+}

@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Eat",
+      "translation": "Есть",
+      "img": "eat.png",
+      "audioFile": "eat.mp3"
+  },
+  {
+      "word": "Boil",
+      "translation": "Варить",
+      "img": "boil.png",
+      "audioFile": "boil.mp3"
+  },
+  {
+      "word": "Fry",
+      "translation": "Жарить",
+      "img": "fry.png",
+      "audioFile": "fry.mp3"
+  },
+  {
+      "word": "Grate",
+      "translation": "Тереть на терке",
+      "img": "grate.png",
+      "audioFile": "grate.mp3"
+  },
+  {
+      "word": "Slice",
+      "translation": "Нарезать",
+      "img": "slice.png",
+      "audioFile": "slice.mp3"
+  },
+  {
+      "word": "Wash",
+      "translation": "Мыть",
+      "img": "wash.png",
+      "audioFile": "wash.mp3"
+  },
+  {
+      "word": "Bake",
+      "translation": "Печь, запекать",
+      "img": "bake.png",
+      "audioFile": "bake.mp3"
+  },
+  {
+      "word": "Taste",
+      "translation": "Пробовать",
+      "img": "taste.png",
+      "audioFile": "taste.mp3"
+  }
+]

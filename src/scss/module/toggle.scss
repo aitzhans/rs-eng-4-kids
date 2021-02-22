@@ -1,0 +1,97 @@
+.toggle {
+  position: absolute;
+  z-index: 999;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 6rem;
+  background-image: url("../../assets/img/nav__toggle-btn_bg.svg");
+  background-size: cover;
+}
+
+.toggle__inner {
+  width: 4rem;
+  height: 3.2rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  & > span {
+    position: absolute;
+    width: 3.9rem;
+    height: 0.4rem;
+    transform: rotate(0deg);
+    background-color: white;
+    
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    transform-origin: left center;
+
+    &:first-child {
+      top: 0;
+    }
+    &:nth-child(2) {
+      top: 50%;
+      margin-top: -0.2rem;       
+    }
+
+    &:last-child{
+      top: 100%;
+      margin-top: -0.4rem;
+    }
+  }
+
+
+  &--close {
+    width: 3rem;
+    margin-left: 1.6rem;
+ 
+    & > span {
+      &:first-child {
+        
+        transform: rotate(45deg);
+      }
+      &:nth-child(2) {
+        width: 0;
+        opacity: 0;        
+      }
+      &:last-child {
+        transform: rotate(-45deg);
+      }
+    }   
+  }
+}
+
+
+
+@media only screen and #{$tablet-width} {
+  .toggle {
+    margin-top: 3.2rem;
+    margin-left: 0rem;
+  }
+}
+
+
+
+@media only screen and #{$mobile-width} {
+  .toggle {
+    margin-top: 0.2rem;
+    margin-left: 0rem;
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .toggle__inner {
+    width: 4rem;
+    height: 3.2rem;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+
+    &--close {
+      width: 3rem;
+      margin-left: 1.1rem;
+    }
+  }
+}

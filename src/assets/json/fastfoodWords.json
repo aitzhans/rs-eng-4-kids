@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Ice cream",
+      "translation": "Мороженое",
+      "img": "ice-cream.png",
+      "audioFile": "ice-cream.mp3"
+  },
+  {
+      "word": "Soft drink",
+      "translation": "Газировка",
+      "img": "soft-drink.png",
+      "audioFile": "soft-drink.mp3"
+  },
+  {
+      "word": "Donut",
+      "translation": "Пончик",
+      "img": "donut.png",
+      "audioFile": "donut.mp3"
+  },
+  {
+      "word": "Cupcake",
+      "translation": "Кекс",
+      "img": "cupcake.png",
+      "audioFile": "cupcake.mp3"
+  },
+  {
+      "word": "French fries",
+      "translation": "Картошка фри",
+      "img": "french-fries.png",
+      "audioFile": "french-fries.mp3"
+  },
+  {
+      "word": "Pizza",
+      "translation": "Пицца",
+      "img": "pizza.png",
+      "audioFile": "pizza.mp3"
+  },
+  {
+      "word": "Hot dog",
+      "translation": "Хот-дог",
+      "img": "hot-dog.png",
+      "audioFile": "hot-dog.mp3"
+  },
+  {
+      "word": "Hamburger",
+      "translation": "Гамбургер",
+      "img": "hamburger.png",
+      "audioFile": "hamburger.mp3"
+  }
+]

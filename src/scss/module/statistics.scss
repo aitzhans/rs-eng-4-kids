@@ -1,0 +1,266 @@
+.statistics {
+  margin: 0 auto;
+  margin-top: 0rem;
+  width: 90%;
+}
+
+.statistics__header {
+  margin: 0;
+  color: $statistics-text-darker;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.statistics__description {
+  margin-top: 1rem;
+  color: $statistics-text-darker;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.statistics__table {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 100%;
+  color: $statistics-text;
+}
+
+.statistics__row {
+  &--header {
+    background-color: $play-color-hover;
+  }
+}
+
+
+.statistics__cell {
+  padding: 0.6rem 0.3rem;
+  border-bottom: $play-color 1px solid;
+  color: $statistics-text;
+  font-size: 1.8rem;
+  text-align: center;
+
+  &--01 {
+    width: 22%;
+  }
+  &--02 {
+    width: 22%;
+  }
+  &--03 {
+    width: 24%;
+  }
+  &--04,
+  &--05,
+  &--06,
+  &--07 {
+    width: 8%;
+  }
+}
+
+
+.statistics__row--header .statistics__cell {
+  color: $text-color;
+  font-weight: 400;
+  font-size: 1.8rem;
+  border: 0;
+}
+
+.statistics__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: $statistics-text-darker;
+}
+
+.statistics__btn {
+  outline: none;
+  flex-shrink: 0;
+  border: 0;
+  background-color: $main-color;
+  margin-left: 0.6rem;
+  padding: 0.6rem 1.2rem;
+  color: $text-color;
+  font-size: 1.6rem;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &--active {
+    background-color: $shadow-color;
+  }
+}
+
+.statistics__toggle {
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 2rem;
+  width: 21rem;
+  height: 3rem;
+  border-radius: 1.2rem;
+  background: $main-color;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 3.6rem;
+    height: 3.6rem;
+    top: 50%;
+    left: 0;
+    margin-top: -1.8rem;
+    border-radius: 50%;
+    background: $text-color;
+    box-shadow: 0.4rem 0.2rem 0.4rem rgba($shadow-color, 0.6);
+    transition: all 0.3s;
+  }
+
+  &--ascending {
+    &::after {
+      left: 17.4rem;
+    }
+  }
+}
+
+.statistics__toggle-text {
+  color: $text-color;
+  font-size: 1.8rem;
+  margin-left: 4.4rem;
+  transition: all 0.3s;
+}
+
+.statistics__toggle--ascending .statistics__toggle-text {
+  margin-left: 2.4rem;
+}
+
+.statistics__reset-btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  outline: none;
+  flex-shrink: 0;
+  border: 0;
+  background-color: $play-color;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  color: $text-color;
+  font-size: 2rem;
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $play-color-hover;
+  }
+}
+
+
+
+@media only screen and #{$mobile-width} {
+  .statistics {
+    width: 100%;
+  }
+  
+  .statistics__header {
+    font-size: 2.8rem;
+  }
+  
+  .statistics__description {
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+
+    &::after {
+      display: block;
+      content: "Attention: Table has horizontal scroll";
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+  }
+  .statistics__table-container {
+    overflow: scroll;
+  }  
+  .statistics__table {
+    margin-top: 0.6rem;
+    width: 100%;
+  }
+  
+  .statistics__cell {
+    padding: 0.2rem 0.1rem;
+    border-bottom: $play-color 1px solid;
+    font-size: 1.4rem;
+    text-align: center;
+  
+    &--01 {
+      width: 22%;
+    }
+    &--02 {
+      width: 22%;
+    }
+    &--03 {
+      width: 24%;
+    }
+    &--04,
+    &--05,
+    &--06,
+    &--07 {
+      width: 8%;
+    }
+  }
+  
+  .statistics__row--header .statistics__cell {
+    font-size: 1.4rem;
+  }
+  
+  .statistics__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0;
+    color: $statistics-text-darker;
+  }
+  
+  .statistics__btn {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .statistics__toggle {
+    margin-top: -0.8rem;
+    margin-left: 1rem;
+    width: 16rem;
+    height: 2.6rem;
+    border-radius: 1.2rem;
+
+    &::after {
+      width: 3rem;
+      height: 3rem;
+      margin-top: -1.5rem;
+    }
+
+    &--ascending {
+      &::after {
+        left: 13rem;
+      }
+    }
+
+  }
+
+  .statistics__toggle-text {
+    font-size: 1.4rem;
+    margin-left: 3.4rem;
+  }
+
+  .statistics__toggle--ascending .statistics__toggle-text {
+    margin-left: 1.6rem;
+  }
+}

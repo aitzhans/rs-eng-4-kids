@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Behind",
+      "translation": "За",
+      "img": "behind.png",
+      "audioFile": "behind.mp3"
+  },
+  {
+      "word": "Beside",
+      "translation": "Возле",
+      "img": "beside.png",
+      "audioFile": "beside.mp3"
+  },
+  {
+      "word": "Between",
+      "translation": "Между",
+      "img": "between.png",
+      "audioFile": "between.mp3"
+  },
+  {
+      "word": "Under",
+      "translation": "Под",
+      "img": "under.png",
+      "audioFile": "under.mp3"
+  },
+  {
+      "word": "On",
+      "translation": "На",
+      "img": "on.png",
+      "audioFile": "on.mp3"
+  },
+  {
+      "word": "In",
+      "translation": "В",
+      "img": "in.png",
+      "audioFile": "in.mp3"
+  },
+  {
+      "word": "Near",
+      "translation": "Рядом",
+      "img": "near.png",
+      "audioFile": "near.mp3"
+  },
+  {
+      "word": "Above",
+      "translation": "Над",
+      "img": "above.png",
+      "audioFile": "above.mp3"
+  }
+]

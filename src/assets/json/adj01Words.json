@@ -1,0 +1,50 @@
+[
+  {
+      "word": "Happy",
+      "translation": "Счастливый",
+      "img": "happy.png",
+      "audioFile": "happy.mp3"
+  },
+  {
+      "word": "Sad",
+      "translation": "Грустный",
+      "img": "sad.png",
+      "audioFile": "sad.mp3"
+  },
+  {
+      "word": "Strong",
+      "translation": "Сильный",
+      "img": "strong.png",
+      "audioFile": "strong.mp3"
+  },
+  {
+      "word": "Weak",
+      "translation": "Слабый",
+      "img": "weak.png",
+      "audioFile": "weak.mp3"
+  },
+  {
+      "word": "Fat",
+      "translation": "Жирный",
+      "img": "fat.png",
+      "audioFile": "fat.mp3"
+  },
+  {
+      "word": "Thin",
+      "translation": "Тонкий",
+      "img": "thin.png",
+      "audioFile": "thin.mp3"
+  },
+  {
+      "word": "Old",
+      "translation": "Старый",
+      "img": "old.png",
+      "audioFile": "old.mp3"
+  },
+  {
+      "word": "Young",
+      "translation": "Молодой",
+      "img": "young.png",
+      "audioFile": "young.mp3"
+  }
+]

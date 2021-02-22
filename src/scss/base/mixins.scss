@@ -1,0 +1,17 @@
+@mixin container() {
+  width: 140rem;
+  margin: 0 auto;
+  @media #{$tablet-width} {
+    width: 700px;
+  }
+
+  @media #{$mobile-width} {
+    width: 320px;
+  }
+}
+
+@mixin list-normalize() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
